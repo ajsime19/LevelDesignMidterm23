@@ -7,6 +7,7 @@ TagManager:
   - Gem
   - Enemy
   - Dragon
+  - Key
   layers:
   - Default
   - TransparentFX

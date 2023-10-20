@@ -7,9 +7,11 @@ public class GemCollection : MonoBehaviour
 {
     public int gemTotal = 0;
     public int dragonTotal = 0;
+    public int keyTotal = 0;
 
     public TextMeshProUGUI gemCounter;
     public TextMeshProUGUI dragonCounter;
+    public TextMeshProUGUI keyCounter;
 
     // Start is called before the first frame update
     void Start()
@@ -39,6 +41,14 @@ public class GemCollection : MonoBehaviour
             dragonTotal = dragonTotal + 1;
             dragonCounter.text = dragonTotal.ToString() + "/6";
             Debug.Log(dragonTotal);
+
+            Destroy(other.gameObject);
+        }
+
+        if(other.tag == "Key")
+        {
+            keyTotal = keyTotal + 1;
+            keyCounter.text = dragonTotal.ToString() + "/2";
 
             Destroy(other.gameObject);
         }
