@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2401724851907999664}
   - component: {fileID: 7523068734956236075}
   - component: {fileID: 3992923015937745055}
+  - component: {fileID: -1786319334506098462}
   m_Layer: 0
   m_Name: Ice
   m_TagString: Enemy
@@ -1211,7 +1212,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 8
+  m_VersionIndex: 11
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -1288,3 +1289,16 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &-1786319334506098462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559390493598858066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d59cd7df4e7e645d5862909bc029c09d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
