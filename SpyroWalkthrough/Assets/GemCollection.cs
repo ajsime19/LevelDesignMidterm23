@@ -29,7 +29,7 @@ public class GemCollection : MonoBehaviour
         if(other.tag == "Gem")
         {
             gemTotal = gemTotal + other.gameObject.GetComponent<Gem>().gemValue;
-            gemCounter.text = gemTotal.ToString() + "/100";
+            gemCounter.text = gemTotal.ToString() + "/875";
             Debug.Log(gemTotal);
 
             Destroy(other.gameObject);
